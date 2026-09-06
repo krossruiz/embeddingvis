@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    pointer-events: none;
+    max-width: 300px;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin: 0;
+}
+
+#status {
+    margin-top: 10px;
+    font-family: monospace;
+    color: #4caf50;
+}
+
+#tooltip {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    color: #000;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    max-width: 300px;
+    display: none;
+    pointer-events: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    line-height: 1.4;
+}
